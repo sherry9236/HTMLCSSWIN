@@ -46,3 +46,39 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+img{
+    display: block;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container{
+    width: 640px;
+    margin: 0 auto;
+}
+section{
+    display: flex;
+}
+section img{
+    margin-bottom: 24px;
+}
+.section1{
+    display: flex;
+    margin-right: 20px;
+}
+.section1 img{
+    margin-right: 20px;
+}
+.section1 h1{
+    font-size: 20px;
+    line-height: 1.2;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+}
+footer p{
+    padding: 48px;
+}
